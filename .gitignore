@@ -1,0 +1,28 @@
+#Vim temporary and swap files
+.*.swp
+.*.swo
+*~
+.netrwhist
+
+# C++ Compilation Artifacts
+*.o
+*.so
+*.a
+
+# Executables (Blocks common names and any generic Linux outputs)
+a.out
+*.out
+imageLoaderApp
+
+# Build Directories
+# (Crucial if you use CMake or a build folder later)
+[Bb]uild/
+
+# Image Data
+# (Prevents tracking massive test images or output results)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
